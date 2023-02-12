@@ -1,0 +1,9 @@
+version: 1
+packages:
+  - path: "internal/pg"
+    name: "pg"
+    engine: "postgresql"
+    sql_package: "pgx/v4"
+    schema: "sql/migrations"
+    queries: "sql/queries"
+    # output_db_file_name: "queries.go"
